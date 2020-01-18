@@ -3,8 +3,8 @@ const router         =  express.Router();
 const request        =  require('request');
 const server         =  express();
 
-const client_id      = '5c64b60a016b4a1c85ce37624e1a5058';
-const client_secret  = '5eedb489a9ae464abc30740dc8b96968';
+const client_id      = '<CLIENT ID>';
+const client_secret  = '<CLIENT SECRET>';
 const redirectURI    = 'https://spotify-clone-ap.herokuapp.com/callback';
 const scope          = 'user-read-private user-read-email user-read-recently-played';
 
